@@ -1,0 +1,83 @@
+/* reset magrin, padding */
+.body {
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+.banner {
+    border: 1px solid yellow;
+    height: 100%;
+    width: 100%;
+    
+   
+    background-image: url('./bg_mb.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    padding: 20px;
+    
+}
+.longin-about {
+    height: 80px;
+    width: 100%;
+    
+
+}
+.about {
+    float: right;
+    text-decoration: none;
+    margin-top: 40px;
+    padding: 7px ;
+    border: 1px solid red;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-right: 100px;
+}
+.longin {
+   float: right;
+    text-decoration: none;
+    /* không hiển thị dấu gạch chân  */
+    margin-top: 40px;
+    border: 1px solid green;
+    display: inline block;
+    padding: 7px;
+    margin-right: 40px;
+    text-transform: uppercase;
+    /* dùng để đổi phông chữ  */
+    border-radius: 20px;
+    /* dùng để tròn khung chữ trên 10px */
+    
+    
+}
+.LOGO {
+    background: url('./logo_mb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    height: 120px;
+}
+.text {
+    text-align: center;
+    margin-top: 30px;
+}
+.btn-start-now {
+    text-align: center;
+    
+}
+button {
+    text-transform: uppercase;
+    padding: 6px 8px;
+    border-radius: 20px;
+    border-color: violet;
+    margin-top: 25px;
+    cursor    : pointer;
+    /* khi di chuột vào thành hình bàn tay  */
+
+}
+.content-center {
+    height: 50px;
+    border: 1px solid red;
+}
+
